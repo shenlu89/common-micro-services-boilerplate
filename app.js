@@ -12,7 +12,7 @@ import koaStatic from 'koa-static'
 // import { Z_SYNC_FLUSH } from 'zlib'
 // import staticCache from 'koa-static-cache'
 
-// extend cwpb-server services
+// extend common micro services
 import index from './routes/index'
 import users from './routes/users'
 import errorHandler from './services/utils/errorHandler'
